@@ -1,0 +1,16 @@
+filename = 'table_top_craft-forge-1.20.1-6.1.2.jar'
+name = 'Table Top Craft'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a5a4a4d19ffb571f9612a84d869b7d527e77cf113bb5ef57fed854aa9699cfc189ad2f35a7a2bb11de940b3984139a8dd1ffc8620c05514e4ae8ac06b0a6bb1e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/IO0hAHwQ/versions/TSPHNuY1/table_top_craft-forge-1.20.1-6.1.2.jar'
+
+[update.modrinth]
+mod-id = 'IO0hAHwQ'
+version = 'TSPHNuY1'

@@ -1,0 +1,16 @@
+filename = 'Ping-Wheel-1.10.3-forge-1.20.1.jar'
+name = 'Ping Wheel'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'f1fcad4eae39dc6508578b29c067663d44d851fcdc57e53f78ed22262e578abfd9d27f84517d21a8aca7c27956b19402cb9ef0e67441c7e55d656ee92c3241dc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QQXAdCzh/versions/jnzl9ziX/Ping-Wheel-1.10.3-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'QQXAdCzh'
+version = 'jnzl9ziX'

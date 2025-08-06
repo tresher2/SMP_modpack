@@ -1,0 +1,16 @@
+filename = 'corpsecurioscompat-1.20.x-Forge-3.0.2.jar'
+name = 'Corpse x Curios API Compat'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'fd41651ff891977acfb2b74ea1738c3259435fdc38f887c8ec7073979faebda27adcd3d65cbb9b3fc98a17edd8df05800b5277ff3687ca0c72e2e4bb71f3be6e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pJGcKPh1/versions/WlXDIt4w/corpsecurioscompat-1.20.x-Forge-3.0.2.jar'
+
+[update.modrinth]
+mod-id = 'pJGcKPh1'
+version = 'WlXDIt4w'

@@ -1,4 +1,4 @@
-filename = 'amendments-1.20-2.0.3.jar'
+filename = 'amendments-1.20-2.0.4.jar'
 name = 'Amendments'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'e5a2114ee3fcfa10a519de4a9c897b768f492c971c524be9b126e30cc371edc7f0cb1edb7e56702cb616d259cac21d39e9e40d9b3464ab2639b64ef3f538504a'
+hash = '08dafdb69081944ece649ef4da8efc46487070a1e2a6058c4a3abd60435757ba876f71cd19c91830139a776c8ccf10edb46315065a8b93a1308c863b95a8703a'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/6iTJugQR/versions/QTkUx304/amendments-1.20-2.0.3.jar'
+url = 'https://cdn.modrinth.com/data/6iTJugQR/versions/rKgUOgkU/amendments-1.20-2.0.4.jar'
 
 [update.modrinth]
 mod-id = '6iTJugQR'
-version = 'QTkUx304'
+version = 'rKgUOgkU'

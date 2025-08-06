@@ -1,0 +1,16 @@
+filename = 'burnt-1.9.0.4-forge-1.20.1.jar'
+name = 'Burnt'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '2e914adb29de223c0230d0307678951d3b32de9c864bd3474772dc72cf013b1ac10c80d36a35245b8c9d358e9930d94698d833e77a44c4005e56cd521cda1700'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tsc9D2wh/versions/3adf8m4J/burnt-1.9.0.4-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'tsc9D2wh'
+version = '3adf8m4J'
