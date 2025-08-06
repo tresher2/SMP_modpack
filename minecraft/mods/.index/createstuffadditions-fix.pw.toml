@@ -1,0 +1,16 @@
+filename = 'createstuffadditionsfix-forge-1.20.1-0.0.0.1.jar'
+name = 'CreateStuffAdditions Fix'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '68e0c745c48f73e0815a90b1bbfccb69efc17c8e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5278566
+project-id = 1006676
