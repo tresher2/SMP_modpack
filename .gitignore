@@ -1,0 +1,8 @@
+/*
+!/minecraft/
+minecraft/*
+!/minecraft/config/
+!/minecraft/defaultconfigs/
+!/minecraft/mods/
+!/minecraft/resourcepacks/
+!.gitignore
