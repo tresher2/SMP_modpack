@@ -1,7 +1,10 @@
 /*
 !/minecraft/
 minecraft/*
-!/minecraft/config/
+
+#разкоментить для возвращения конфигов
+#!/minecraft/config/  
+
 !/minecraft/defaultconfigs/
 !/minecraft/mods/
 !/minecraft/resourcepacks/
