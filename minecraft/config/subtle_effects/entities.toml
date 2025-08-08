@@ -32,7 +32,7 @@ animalFeedingSoundVolume = 1.0
 
 [sleeping]
 playerSnoreChance = 1.0
-playerSnoreSoundVolume = 1.0
+playerSnoreSoundVolume = 0.7
 playersHaveSleepingZs = true
 villagerSnoreChance = 1.0
 villagerSnoreSoundVolume = 1.0
@@ -78,7 +78,7 @@ lessViewBlocking = false
 playerFell = true
 mobFell = true
 landMaceAttack = true
-playerRunning = true
+playerRunning = false
 mobRunning = true
 playerRunningRequiresSpeed = false
 

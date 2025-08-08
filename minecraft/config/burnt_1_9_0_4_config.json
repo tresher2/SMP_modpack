@@ -26,6 +26,6 @@
   "smoke_particles": true,
   "ash_particles": true,
   "smoke_fog_particles": true,
-  "fire_devil // entity can spawn naturally": true,
+  "fire_devil // entity can spawn naturally": false,
   "wisp // entity can spawn naturally": true
 }
