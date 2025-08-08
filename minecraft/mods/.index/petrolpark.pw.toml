@@ -1,0 +1,16 @@
+filename = 'petrolpark-1.20.1-1.4.11.jar'
+name = "Petrolpark's Library"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '7fe733814412d334fed51c8dc2a2af2ec68c5dd6a5486d983e8fca85316f387e81c556ee3bc58e51e449c9fdb563d6402aada855157d47a656bef47320d45634'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ik2WZkTZ/versions/nFyQy5IK/petrolpark-1.20.1-1.4.11.jar'
+
+[update.modrinth]
+mod-id = 'ik2WZkTZ'
+version = 'nFyQy5IK'
