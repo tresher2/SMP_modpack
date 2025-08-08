@@ -1,7 +1,10 @@
 /*
 !/minecraft/
 minecraft/*
-minecraft/config
+
+!minecraft/config
+minecraft/config/*
+!minecraft/config/holdmyitems-client.toml
 
 !/minecraft/defaultconfigs/
 
@@ -10,4 +13,3 @@ minecraft/config
 !/minecraft/resourcepacks/
 
 !.gitignore
-
