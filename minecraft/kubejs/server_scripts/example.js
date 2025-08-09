@@ -18,7 +18,6 @@ ServerEvents.recipes(event => {
         D: 'createimmersivetacz:gun_trigger',
         E: 'create:andesite_casing'
     })
-
     event.recipes.createMechanicalCrafting(Item.of('tacz:modern_kinetic_gun', '{GunId:"create_armorer:pistol_auto_stress"}'), [
         '  H ',
         'ABCD',
@@ -32,7 +31,6 @@ ServerEvents.recipes(event => {
         E: 'createimmersivetacz:gun_trigger',
         F: 'create:brass_casing'
     })
-
     event.recipes.createMechanicalCrafting(Item.of('tacz:modern_kinetic_gun', '{GunId:"create_armorer:rifle_assult_crane"}'), [
         'BBCD ',
         'GGAFS',
@@ -49,8 +47,6 @@ ServerEvents.recipes(event => {
         D: 'create:electron_tube',
         E: 'create:andesite_casing'
     })
-
-
     event.recipes.createMechanicalCrafting(Item.of('tacz:modern_kinetic_gun', '{GunId:"create_armorer:sniper_semi_clockwork"}'), [
         'BBC  ',
         'GGAFS',
@@ -120,4 +116,5 @@ ServerEvents.recipes(event => {
         D: 'create:copper_backtank',
         E: 'create:iron_sheet'
     })
+    event.remove({ type: 'tacz:gun_smith_table_crafting' })
 })
