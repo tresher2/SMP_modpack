@@ -49,4 +49,76 @@ ServerEvents.recipes(event => {
         D: 'create:electron_tube',
         E: 'create:andesite_casing'
     })
+
+
+    event.recipes.createMechanicalCrafting(Item.of('tacz:modern_kinetic_gun', '{GunId:"create_armorer:sniper_semi_clockwork"}'), [
+        'BBC  ',
+        'GGAFS',
+        'DLTE '
+    ], {
+        G: 'createimmersivetacz:gunbarrel',
+        F: 'create:copper_backtank',
+        T: 'createimmersivetacz:gun_trigger',
+        S: 'create:shaft',
+        A: 'tfmg:steel_mechanism',
+        L: 'createimmersivetacz:firing_mechanism',
+        B: 'create:sturdy_sheet',
+        C: 'create:copper_sheet',
+        D: 'create:electron_tube',
+        E: 'create:brass_casing'
+    })
+    event.recipes.createMechanicalCrafting(Item.of('tacz:modern_kinetic_gun', '{GunId:"create_armorer:shotgun_db_stone"}'), [
+        'GGAC',
+        'GGTS'
+    ], {
+        G: 'createimmersivetacz:gunbarrel',
+        T: 'createimmersivetacz:gun_trigger',
+        S: '#forge:stripped_logs',
+        C: 'create:brass_sheet',
+        A: 'tfmg:steel_mechanism'
+    })
+    event.recipes.createMechanicalCrafting(Item.of('tacz:modern_kinetic_gun', '{GunId:"create_armorer:shotgun_pump_bearing"}'), [
+        'GGAFS',
+        ' ET S'
+    ], {
+        G: 'createimmersivetacz:gunbarrel',
+        F: 'createimmersivetacz:firing_mechanism',
+        T: 'createimmersivetacz:gun_trigger',
+        S: '#forge:stripped_logs',
+        A: 'tfmg:steel_mechanism'
+    })
+    event.recipes.createMechanicalCrafting(Item.of('tacz:modern_kinetic_gun', '{GunId:"create_armorer:smg_auto_crank"}'), [
+        'BBBC ',
+        'GGFAS',
+        ' LTE '
+    ], {
+        G: 'createimmersivetacz:gunbarrel',
+        F: 'createimmersivetacz:firing_mechanism',
+        T: 'createimmersivetacz:gun_trigger',
+        S: 'create:shaft',
+        A: 'create:precision_mechanism',
+        L: 'create:steam_engine',
+        B: 'create:brass_sheet',
+        C: 'create:sturdy_sheet',
+        D: 'create:electron_tube',
+        E: 'create:andesite_casing'
+    })
+    event.recipes.createMechanicalCrafting(Item.of('tacz:modern_kinetic_gun', '{GunId:"create_armorer:rifle_assult_crane"}'), [
+        ' CCDD  ',
+        'EGAAFPS',
+        'EYFCTU '
+    ], {
+        G: 'createimmersivetacz:gunbarrel',
+        F: 'createimmersivetacz:firing_mechanism',
+        T: 'createimmersivetacz:gun_trigger',
+        S: 'create:shaft',
+        A: 'tfmg:steel_mechanism',
+        C: 'create:sturdy_sheet',
+        Y: 'create:steam_engine',
+        F: 'create:flywheel',
+        U: 'create:andesite_casing',
+        P: 'create:industrial_iron_block',
+        D: 'create:copper_backtank',
+        E: 'create:iron_sheet'
+    })
 })
