@@ -1,8 +1,8 @@
 ServerEvents.recipes(event => {
     event.shaped('tacz:target', [
-        ' A ',
-        ' B ',
-        ' C '
+        'A',
+        'B',
+        'C'
     ], {
         A: 'create:iron_sheet',
         B: 'create:rose_quartz_lamp',
@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
     })
 
     event.recipes.createMechanicalCrafting(Item.of('tacz:modern_kinetic_gun', '{GunId:"create_armorer:pistol_auto_stress"}'), [
-        '  C ',
+        '  H ',
         'ABCD',
         '  EF'
     ], {
@@ -30,8 +30,7 @@ ServerEvents.recipes(event => {
         C: 'createimmersivetacz:firing_mechanism',
         H: 'create:precision_mechanism',
         D: 'create:sequenced_gearshift',
-        E: 'createimmersivetacz:gun_trigger',
-        À: 'create:brass_casing'
+        E: 'createimmersivetacz:gun_trigger'
     })
 
     event.recipes.createMechanicalCrafting(Item.of('tacz:modern_kinetic_gun', '{GunId:"create_armorer:rifle_assult_crane"}'), [
