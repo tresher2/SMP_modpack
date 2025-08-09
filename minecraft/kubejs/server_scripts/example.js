@@ -1,4 +1,86 @@
 ServerEvents.recipes(event => {
+    event.remove({ type: 'tacz:gun_smith_table_crafting' })
+    event.remove({ type: 'create:mechanical_crafting', mod: 'createimmersivetacz' })
+
+    event.recipes.createMechanicalCrafting(Item.of('tacz:attachment', '{AttachmentId:"create_armorer:scope_telephoto"}'), [
+        'ABBA'
+    ], {
+        A: 'create:brass_sheet',
+        B: 'create_optical:mirror'
+    })
+    event.recipes.createMechanicalCrafting('createimmersivetacz:firing_mechanism', [
+        'ABC',
+        ' DE'
+    ], {
+        A: 'minecraft:flint_and_steel',
+        B: 'create:deployer',
+        C: 'create:large_cogwheel',
+        D: 'create:cogwheel',
+        E: 'create:rotation_speed_controller'
+    })
+    event.recipes.createMechanicalCrafting('createimmersivetacz:gun_trigger', [
+        'ABA',
+        ' C '
+    ], {
+        A: 'create:brass_sheet',
+        B: 'create:precision_mechanism',
+        C: 'create:analog_lever'
+    })
+    event.recipes.createMechanicalCrafting(Item.of('tacz:attachment', '{AttachmentId:"create_armorer:muzzle_refit_brass_retractor"}'), [
+        'AA'
+    ], {
+        A: 'create:brass_sheet'
+    })
+
+    event.recipes.createMechanicalCrafting(Item.of('tacz:attachment', '{AttachmentId:"create_armorer:sight_standard"}'), [
+        'ABC'
+    ], {
+        A: 'minecraft:glass_pane',
+        B: 'minecraft:dried_kelp',
+        C: 'create:brass_sheet'
+    })
+    event.recipes.createMechanicalCrafting(Item.of('tacz:attachment', '{AttachmentId:"create_armorer:sight_medium_distance"}'), [
+        'ABCBC'
+    ], {
+        A: 'minecraft:glass_pane',
+        C: 'create:brass_sheet',
+        B: 'minecraft:dried_kelp'
+    })
+    event.recipes.createMechanicalCrafting(Item.of('tacz:attachment', '{AttachmentId:"create_armorer:extended_mag_ca_1"}'), [
+        'A A',
+        'CBC',
+        'A A'
+    ], {
+        A: 'create:andesite_alloy',
+        C: 'create:andesite_alloy_block',
+        B: '#create:toolboxes'
+    })
+    event.recipes.createMechanicalCrafting(Item.of('tacz:attachment', '{AttachmentId:"create_armorer:extended_mag_ca_2"}'), [
+        'A A',
+        'BDB',
+        'BCB',
+        'A A'
+    ], {
+        A: 'create:copper_sheet',
+        B: '#create:toolboxes',
+        D: 'createaddition:diamond_grit',
+        C: 'create:super_glue'
+    })
+    event.recipes.createMechanicalCrafting(Item.of('tacz:attachment', '{AttachmentId:"create_armorer:extended_mag_ca_3"}'), [
+        'C C',
+        'BYB',
+        'AFA',
+        'BYB',
+        'C C'
+    ], {
+        A: 'create:brass_block',
+        B: '#create:toolboxes',
+        F: 'create:cardboard',
+        Y: 'createdeco:netherite_sheet',
+        C: 'create:brass_sheet'
+    })
+
+
     event.shaped('tacz:target', [
         'A',
         'B',
@@ -116,5 +198,11 @@ ServerEvents.recipes(event => {
         D: 'create:copper_backtank',
         E: 'create:iron_sheet'
     })
-    event.remove({ type: 'tacz:gun_smith_table_crafting' })
+    event.recipes.createMechanicalCrafting('createimmersivetacz:gunbarrel', [
+        'AAAA',
+        '    ',
+        'AAAA'
+    ], {
+        A: 'createdeco:industrial_iron_sheet'
+    })
 })
