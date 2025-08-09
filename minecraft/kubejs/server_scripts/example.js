@@ -1,7 +1,8 @@
 ServerEvents.recipes(event => {
-    event.recipes.createMechanicalCrafting('tacz:modern_kinetic_gun'), [
+    event.recipes.createMechanicalCrafting('tacz:modern_kinetic_gun', [
         'ABC',
-        ' DE',], {
+        ' DE'
+    ], {
         A: 'createimmersivetacz:gunbarrel',
         B: 'create:precision_mechanism',
         C: 'createimmersivetacz:firing_mechanism',
