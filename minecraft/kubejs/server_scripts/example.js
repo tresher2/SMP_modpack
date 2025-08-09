@@ -8,7 +8,6 @@ ServerEvents.recipes(event => {
         B: 'create:rose_quartz_lamp',
         C: 'quark:stripped_oak_post'
     })
-
     event.recipes.createMechanicalCrafting(Item.of('tacz:modern_kinetic_gun', '{GunId:"create_armorer:pistol_revolver_torque"}'), [
         'ABC',
         ' DE'
@@ -30,13 +29,14 @@ ServerEvents.recipes(event => {
         C: 'createimmersivetacz:firing_mechanism',
         H: 'create:precision_mechanism',
         D: 'create:sequenced_gearshift',
-        E: 'createimmersivetacz:gun_trigger'
+        E: 'createimmersivetacz:gun_trigger',
+        F: 'create:brass_casing'
     })
 
     event.recipes.createMechanicalCrafting(Item.of('tacz:modern_kinetic_gun', '{GunId:"create_armorer:rifle_assult_crane"}'), [
         'BBCD ',
         'GGAFS',
-        '  TE '
+        ' LTE '
     ], {
         G: 'createimmersivetacz:gunbarrel',
         F: 'createimmersivetacz:firing_mechanism',
