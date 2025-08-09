@@ -79,7 +79,7 @@ ServerEvents.recipes(event => {
     })
     event.recipes.createMechanicalCrafting(Item.of('tacz:modern_kinetic_gun', '{GunId:"create_armorer:shotgun_pump_bearing"}'), [
         'GGAFS',
-        ' ET S'
+        '  T S'
     ], {
         G: 'createimmersivetacz:gunbarrel',
         F: 'createimmersivetacz:firing_mechanism',
@@ -100,10 +100,9 @@ ServerEvents.recipes(event => {
         L: 'create:steam_engine',
         B: 'create:brass_sheet',
         C: 'create:sturdy_sheet',
-        D: 'create:electron_tube',
         E: 'create:andesite_casing'
     })
-    event.recipes.createMechanicalCrafting(Item.of('tacz:modern_kinetic_gun', '{GunId:"create_armorer:rifle_assult_crane"}'), [
+    event.recipes.createMechanicalCrafting(Item.of('tacz:modern_kinetic_gun', '{GunId:"create_armorer:mg_platemag_flywheel"}'), [
         ' CCDD  ',
         'EGAAFPS',
         'EYFCTU '
