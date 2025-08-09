@@ -6,11 +6,13 @@ minecraft/*
 minecraft/config/*
 !minecraft/config/holdmyitems-client.toml
 !minecraft/config/quark-common.toml
+!minecraft/config/openloader
 
 !minecraft/tacz
 minecraft/tacz/tacz_default_gun
 minecraft/tacz/tacz-pre.toml
 
+!minecraft/kubejs
 
 !/minecraft/defaultconfigs/
 
