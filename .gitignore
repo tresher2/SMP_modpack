@@ -7,9 +7,15 @@ minecraft/config/*
 !minecraft/config/holdmyitems-client.toml
 !minecraft/config/quark-common.toml
 
+!minecraft/tacz
+minecraft/tacz/tacz_default_gun
+minecraft/tacz/tacz-pre.toml
+
+
 !/minecraft/defaultconfigs/
 
 !/minecraft/mods/
+minecraft/mods/.connector
 
 !/minecraft/resourcepacks/
 
