@@ -1,0 +1,16 @@
+filename = 'expanded_ecosphere-3.2.4-forge.jar'
+name = "William Wythers' Expanded Ecosphere"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a53203c724a813e96ec14f07b7af2c7f73ce9a1fd17f31770c22a7627806b869b00156c7f418959b57a8efb68a1280ff727180e6dde9047d867825a3d0a16e1f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/O1XGs7ps/versions/jhyrH2s8/expanded_ecosphere-3.2.4-forge.jar'
+
+[update.modrinth]
+mod-id = 'O1XGs7ps'
+version = 'jhyrH2s8'

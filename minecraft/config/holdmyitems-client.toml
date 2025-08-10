@@ -33,7 +33,7 @@
 
 [modRenderExclusions]
 	#Mod IDs that should be excluded from custom rendering (entire mod).
-	excludedModIds = ["pointblank", "jeg", "cataclysm"]
+	excludedModIds = ["pointblank", "jeg", "cataclysm", "tacz", "redstonepen", "simpleradio", "copycats", "bushierflowers", "chimes", "sleep_tight"]
 	#Specific item IDs to exclude from custom rendering (e.g. 'modid:itemname').
 	excludedItemIds = ["minecraft:bell", "minecraft:axolotl_bucket", "minecraft:cod_bucket", "minecraft:salmon_bucket", "minecraft:tropical_fish_bucket"]
 	#Skips the blockItem renderer which is useful especially for create items cause their already 3d
