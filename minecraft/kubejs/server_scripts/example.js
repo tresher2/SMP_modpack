@@ -90,6 +90,13 @@ ServerEvents.recipes(event => {
         B: 'create:rose_quartz_lamp',
         C: 'quark:stripped_oak_post'
     })
+    event.replaceInput(
+        { mod: 'sophisticatedbackpacks' }, // Arg 1: the filter
+        '#forge:chests/wooden',            // Arg 2: the item to replace
+        '#create:toolboxes'         // Arg 3: the item to replace it with
+        // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
+    )
+
     event.recipes.createMechanicalCrafting(Item.of('tacz:modern_kinetic_gun', '{GunId:"create_armorer:pistol_revolver_torque"}'), [
         'ABC',
         ' DE'
