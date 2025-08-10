@@ -1,0 +1,31 @@
+{
+  "type": "sophisticatedbackpacks:basic_backpack",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:backpack"
+    }
+  ],
+  "key": {
+    "C": {
+      "tag": "create:toolboxes"
+    },
+    "L": {
+      "tag": "forge:leather"
+    },
+    "S": {
+      "item": "farmersdelight:rope"
+    },
+    "K": {
+      "item": "minecraft:dried_kelp"
+    }
+  },
+  "pattern": [
+    "SLS",
+    "KCK",
+    "SLS"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:backpack"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:linked_controller"
+  },
+  "loops": 0,
+  "results": [
+    {
+      "chance": 180,
+      "item": "toms_storage:ts.wireless_terminal"
+    },
+    {
+      "chance": 5,
+      "item": "create:brass_ingot"
+    },
+    {
+      "chance": 5,
+      "item": "create:brass_nugget"
+    },
+    {
+      "chance": 5,
+      "item": "create:brass_sheet"
+    },
+    {
+      "chance": 5,
+      "item": "createaddition:brass_rod"
+    }
+  ],
+  "sequence": [
+
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "toms_storage:ts.wireless_terminal"
+        },
+        {
+          "item": "create:redstone_link"
+        }
+      ],
+      "results": [
+        {
+          "item": "toms_storage:ts.wireless_terminal"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "toms_storage:ts.wireless_terminal"
+        },
+        {
+          "item": "create:display_board"
+        }
+      ],
+      "results": [
+        {
+          "item": "toms_storage:ts.wireless_terminal"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "toms_storage:ts.wireless_terminal"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "toms_storage:ts.wireless_terminal"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "toms_storage:ts.wireless_terminal"
+        },
+        {
+          "item": "createindustry:screwdriver"
+        }
+      ],
+      "results": [
+        {
+          "item": "toms_storage:ts.wireless_terminal"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "toms_storage:ts.wireless_terminal"
+  }
+}

@@ -1,6 +1,7 @@
 ServerEvents.recipes(event => {
     event.remove({ type: 'tacz:gun_smith_table_crafting' })
     event.remove({ type: 'create:mechanical_crafting', mod: 'createimmersivetacz' })
+    event.remove({ output: 'tacz:target' })
 
     event.recipes.createMechanicalCrafting(Item.of('tacz:attachment', '{AttachmentId:"create_armorer:scope_telephoto"}'), [
         'ABBA'
@@ -80,7 +81,6 @@ ServerEvents.recipes(event => {
         C: 'create:brass_sheet'
     })
 
-
     event.shaped('tacz:target', [
         'A',
         'B',
@@ -94,8 +94,13 @@ ServerEvents.recipes(event => {
         { mod: 'sophisticatedbackpacks' }, // Arg 1: the filter
         '#forge:chests/wooden',            // Arg 2: the item to replace
         '#create:toolboxes'         // Arg 3: the item to replace it with
-        // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
     )
+    event.replaceInput(
+        { output: 'sophisticatedbackpacks:upgrade_base' }, // Arg 1: the filter
+        '#forge:ingots/iron',            // Arg 2: the item to replace
+        '#forge:plates/iron'         // Arg 3: the item to replace it with
+    )
+
 
     event.recipes.createMechanicalCrafting(Item.of('tacz:modern_kinetic_gun', '{GunId:"create_armorer:pistol_revolver_torque"}'), [
         'ABC',

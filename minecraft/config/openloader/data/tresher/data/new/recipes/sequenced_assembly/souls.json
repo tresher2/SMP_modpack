@@ -1,0 +1,86 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:ghast_tear"
+  },
+  "loops": 13,
+  "results": [
+    {
+      "count": 2,
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    }
+  ],
+  "sequence": [
+
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "forbidden_arcanus:soul"
+        },
+        {
+          "fluid": "kubejs:liquid_souls",
+          "nbt": {},
+          "amount": 250
+        }
+      ],
+      "results": [
+        {
+          "item": "forbidden_arcanus:soul"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "forbidden_arcanus:soul"
+        },
+        {
+          "item": "minecraft:soul_sand"
+        }
+      ],
+      "results": [
+        {
+          "item": "forbidden_arcanus:soul"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "forbidden_arcanus:soul"
+        },
+        {
+          "item": "minecraft:soul_sand"
+        }
+      ],
+      "results": [
+        {
+          "item": "forbidden_arcanus:soul"
+        }
+      ]
+    },
+
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "forbidden_arcanus:soul"
+        }
+      ],
+      "results": [
+        {
+          "item": "forbidden_arcanus:soul"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "forbidden_arcanus:soul"
+  }
+}

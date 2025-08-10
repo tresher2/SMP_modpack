@@ -1,0 +1,193 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "apotheosis:infused_breath"
+  },
+  "transitionalItem": {
+    "item": "quark:bottled_cloud"
+  },
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "quark:bottled_cloud"
+        },
+        {
+          "fluid": "kubejs:echorite_essence",
+          "nbt": {},
+          "amount": 125
+        }
+      ],
+      "results": [
+        {
+          "item": "quark:bottled_cloud"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "quark:bottled_cloud"
+        },
+        {
+          "fluid": "kubejs:witherite_essence",
+          "nbt": {},
+          "amount": 125
+        }
+      ],
+      "results": [
+        {
+          "item": "quark:bottled_cloud"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "quark:bottled_cloud"
+        },
+        {
+          "fluid": "kubejs:golderite_essence",
+          "nbt": {},
+          "amount": 125
+        }
+      ],
+      "results": [
+        {
+          "item": "quark:bottled_cloud"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "quark:bottled_cloud"
+        },
+        {
+          "fluid": "kubejs:enderite_essence",
+          "nbt": {},
+          "amount": 125
+        }
+      ],
+      "results": [
+        {
+          "item": "quark:bottled_cloud"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "quark:bottled_cloud"
+        },
+        {
+          "fluid": "kubejs:prismarite_essence",
+          "nbt": {},
+          "amount": 125
+        }
+      ],
+      "results": [
+        {
+          "item": "quark:bottled_cloud"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "quark:bottled_cloud"
+        },
+        {
+          "fluid": "kubejs:blazerite_essence",
+          "nbt": {},
+          "amount": 125
+        }
+      ],
+      "results": [
+        {
+          "item": "quark:bottled_cloud"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "quark:bottled_cloud"
+        },
+        {
+          "fluid": "kubejs:phanterite_essence",
+          "nbt": {},
+          "amount": 125
+        }
+      ],
+      "results": [
+        {
+          "item": "quark:bottled_cloud"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "quark:bottled_cloud"
+        },
+        {
+          "fluid": "kubejs:spiderite_essence",
+          "nbt": {},
+          "amount": 125
+        }
+      ],
+      "results": [
+        {
+          "item": "quark:bottled_cloud"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "quark:bottled_cloud"
+        },
+        {
+          "fluid": "kubejs:featherite_essence",
+          "nbt": {},
+          "amount": 125
+        }
+      ],
+      "results": [
+        {
+          "item": "quark:bottled_cloud"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_sa:incomplete_hydraulic_engine"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_sa:incomplete_hydraulic_engine"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "upgradednetherite_ultimate:ultimate_essence",
+      "chance": 100.0
+    }
+  ],
+  "loops": 2
+}

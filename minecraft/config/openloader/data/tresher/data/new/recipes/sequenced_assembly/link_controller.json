@@ -1,0 +1,82 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:linked_controller"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "item": "create_tweaked_controllers:tweaked_linked_controller"
+    }
+  ],
+  "sequence": [
+
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:linked_controller"
+        },
+        {
+          "item": "create:linked_controller"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:linked_controller"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:linked_controller"
+        },
+        {
+          "item": "create:analog_lever"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:linked_controller"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:linked_controller"
+        },
+        {
+          "item": "minecraft:stone_button"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:linked_controller"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:linked_controller"
+        },
+        {
+          "item": "createindustry:screwdriver"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:linked_controller"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "create:linked_controller"
+  }
+}
