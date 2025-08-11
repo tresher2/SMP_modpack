@@ -8,6 +8,7 @@ minecraft/config/*
 !minecraft/config/quark-common.toml
 !minecraft/config/openloader
 !minecraft/config/subtle_effects
+!minecraft/config
 
 !minecraft/tacz
 minecraft/tacz/tacz_default_gun
