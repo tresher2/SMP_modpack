@@ -7,7 +7,6 @@ minecraft/config/*
 !minecraft/config/holdmyitems-client.toml
 !minecraft/config/quark-common.toml
 !minecraft/config/openloader
-!minecraft/config/subtle_effects
 
 !minecraft/tacz
 minecraft/tacz/tacz_default_gun
