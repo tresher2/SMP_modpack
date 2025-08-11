@@ -21,4 +21,5 @@ minecraft/tacz/tacz-pre.toml
 minecraft/mods/.connector
 
 !/minecraft/resourcepacks/
+!/minecraft/tacz
 !.gitignore
