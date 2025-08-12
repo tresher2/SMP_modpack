@@ -9,6 +9,7 @@ minecraft/config/*
 !minecraft/config/openloader
 !minecraft/config/subtle_effects
 !minecraft/config/hole_filler_mod.toml
+!minecraft/config/createfisheryindustry-common.toml
 
 !minecraft/tacz
 minecraft/tacz/tacz_default_gun
