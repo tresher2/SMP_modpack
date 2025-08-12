@@ -7,3 +7,5 @@
   TreshersNewTextures -> NewDyeTextures -> cubic-sun-moon-v1.8.1a -> SPEGG BP [1.20-1.x] -> 3D-fishing-hook-bobber-v2.1-fancy-with-line -> Default Place Animations -> Moonlight Mods Dynamic Assets -> Mod Resources -> TACZ Resouces -> Стандартный
 5) рекомендуется:
   в настройках графики отключить облака
+
+Если у вас prism launcher то можете, так же в пустую сборку, положить весь проект туда через github desktop, что бы в случае чего было проще обновиться
