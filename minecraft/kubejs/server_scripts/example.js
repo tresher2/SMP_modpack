@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'createimmersivetacz:gernade_casing' })
     event.remove({ input: 'createimmersivetacz:gernade_casing' })
     event.remove({ mod: 'hole_filler_mod' })
-    event.remove({ mod: 'weather2' })
+    event.remove({ mod: 'weather2', not: { type: "create:sequenced_assembly"} })
 
 
     event.recipes.createMechanicalCrafting(Item.of('tacz:attachment', '{AttachmentId:"create_armorer:sight_standard"}'), [
@@ -230,7 +230,7 @@ ServerEvents.recipes(event => {
         ' C '
     ], {
         A: 'create:iron_sheet',
-        B: 'create:iron_sheet',
+        B: 'create:andesite_alloy',
         C: 'create:shaft'
     })
     event.shaped('weather2:wind_vane', [
