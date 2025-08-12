@@ -230,7 +230,7 @@ ServerEvents.recipes(event => {
         ' C '
     ], {
         A: 'create:iron_sheet',
-        B: 'weather2:weather_item',
+        B: 'create:iron_sheet',
         C: 'create:shaft'
     })
     event.shaped('weather2:wind_vane', [
@@ -239,7 +239,7 @@ ServerEvents.recipes(event => {
         'C'
     ], {
         A: 'supplementaries:wind_vane',
-        B: 'weather2:weather_item',
+        B: 'create:iron_sheet',
         C: 'weather2:anemometer'
     })
     event.shaped('weather2:wind_turbine', [
