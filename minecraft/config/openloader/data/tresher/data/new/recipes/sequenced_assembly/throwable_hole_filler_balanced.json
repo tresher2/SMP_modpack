@@ -14,7 +14,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "minecraft:gold_block"
+          "item": "kubejs:incomplete_throwable_hole_filler_balanced"
         },
         {
           "item": "create:electron_tube"
@@ -22,7 +22,7 @@
       ],
       "results": [
         {
-          "item": "minecraft:gold_block"
+          "item": "kubejs:incomplete_throwable_hole_filler_balanced"
         }
       ]
     },
@@ -30,7 +30,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "minecraft:gold_block"
+          "item": "kubejs:incomplete_throwable_hole_filler_balanced"
         },
         {
           "item": "create:electron_tube"
@@ -38,7 +38,7 @@
       ],
       "results": [
         {
-          "item": "minecraft:gold_block"
+          "item": "kubejs:incomplete_throwable_hole_filler_balanced"
         }
       ]
     },
@@ -46,7 +46,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "minecraft:gold_block"
+          "item": "kubejs:incomplete_throwable_hole_filler_balanced"
         },
         {
           "item": "create:brass_sheet"
@@ -54,12 +54,12 @@
       ],
       "results": [
         {
-          "item": "minecraft:gold_block"
+          "item": "kubejs:incomplete_throwable_hole_filler_balanced"
         }
       ]
     }
   ],
   "transitionalItem": {
-    "item": "minecraft:gold_block"
+    "item": "kubejs:incomplete_throwable_hole_filler_balanced"
   }
 }

@@ -14,7 +14,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "minecraft:diamond_block"
+          "item": "kubejs:incomplete_throwable_hole_filler_smart"
         },
         {
           "item": "create:content_observer"
@@ -22,7 +22,7 @@
       ],
       "results": [
         {
-          "item": "minecraft:diamond_block"
+          "item": "kubejs:incomplete_throwable_hole_filler_smart"
         }
       ]
     },
@@ -30,7 +30,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "minecraft:diamond_block"
+          "item": "kubejs:incomplete_throwable_hole_filler_smart"
         },
         {
           "item": "create:factory_gauge"
@@ -38,7 +38,7 @@
       ],
       "results": [
         {
-          "item": "minecraft:diamond_block"
+          "item": "kubejs:incomplete_throwable_hole_filler_smart"
         }
       ]
     },
@@ -46,7 +46,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "minecraft:diamond_block"
+          "item": "kubejs:incomplete_throwable_hole_filler_smart"
         },
         {
           "item": "tfmg:screwdriver"
@@ -54,12 +54,12 @@
       ],
       "results": [
         {
-          "item": "minecraft:diamond_block"
+          "item": "kubejs:incomplete_throwable_hole_filler_smart"
         }
       ]
     }
   ],
   "transitionalItem": {
-    "item": "minecraft:diamond_block"
+    "item": "kubejs:incomplete_throwable_hole_filler_smart"
   }
 }

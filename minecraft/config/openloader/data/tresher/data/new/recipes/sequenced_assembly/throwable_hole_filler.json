@@ -14,7 +14,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "create:andesite_alloy_block"
+          "item": "kubejs:incomplete_throwable_hole_filler"
         },
         {
           "item": "minecraft:dirt"
@@ -22,7 +22,7 @@
       ],
       "results": [
         {
-          "item": "create:andesite_alloy_block"
+          "item": "kubejs:incomplete_throwable_hole_filler"
         }
       ]
     },
@@ -30,7 +30,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "create:andesite_alloy_block"
+          "item": "kubejs:incomplete_throwable_hole_filler"
         },
         {
           "item": "minecraft:dirt"
@@ -38,7 +38,7 @@
       ],
       "results": [
         {
-          "item": "create:andesite_alloy_block"
+          "item": "kubejs:incomplete_throwable_hole_filler"
         }
       ]
     },
@@ -46,17 +46,17 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "create:andesite_alloy_block"
+          "item": "kubejs:incomplete_throwable_hole_filler"
         }
       ],
       "results": [
         {
-          "item": "create:andesite_alloy_block"
+          "item": "kubejs:incomplete_throwable_hole_filler"
         }
       ]
     }
   ],
   "transitionalItem": {
-    "item": "create:andesite_alloy_block"
+    "item": "kubejs:incomplete_throwable_hole_filler"
   }
 }

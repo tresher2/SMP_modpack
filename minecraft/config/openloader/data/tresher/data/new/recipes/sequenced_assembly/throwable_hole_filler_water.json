@@ -14,7 +14,7 @@
       "type": "create:filling",
       "ingredients": [
         {
-          "item": "minecraft:ice"
+          "item": "kubejs:incomplete_throwable_hole_filler_water"
         },
         {
           "amount": 750,
@@ -24,7 +24,7 @@
       ],
       "results": [
         {
-          "item": "minecraft:ice"
+          "item": "kubejs:incomplete_throwable_hole_filler_water"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "type": "create:filling",
       "ingredients": [
         {
-          "item": "minecraft:ice"
+          "item": "kubejs:incomplete_throwable_hole_filler_water"
         },
         {
           "amount": 750,
@@ -42,7 +42,7 @@
       ],
       "results": [
         {
-          "item": "minecraft:ice"
+          "item": "kubejs:incomplete_throwable_hole_filler_water"
         }
       ]
     },
@@ -50,17 +50,17 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "minecraft:ice"
+          "item": "kubejs:incomplete_throwable_hole_filler_water"
         }
       ],
       "results": [
         {
-          "item": "minecraft:ice"
+          "item": "kubejs:incomplete_throwable_hole_filler_water"
         }
       ]
     }
   ],
   "transitionalItem": {
-    "item": "minecraft:ice"
+    "item": "kubejs:incomplete_throwable_hole_filler_water"
   }
 }
