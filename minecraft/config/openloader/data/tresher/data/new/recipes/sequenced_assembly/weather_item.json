@@ -1,0 +1,63 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:precision_mechanism"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "count": 4,
+      "item": "weather2:weather_item"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "incomplete_elite_mechanism_2"
+        },
+        {
+          "item": "create:content_observer"
+        }
+      ],
+      "results": [
+        {
+          "item": "incomplete_elite_mechanism_2"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "incomplete_elite_mechanism_2"
+        },
+        {
+          "item": "create:stock_ticker"
+        }
+      ],
+      "results": [
+        {
+          "item": "incomplete_elite_mechanism_2"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_throwable_hole_filler"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_throwable_hole_filler"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "incomplete_elite_mechanism_2"
+  }
+}

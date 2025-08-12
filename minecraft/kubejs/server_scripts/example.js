@@ -4,7 +4,12 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'tacz:target' })
     event.remove({ output: 'exposure:developed_black_and_white_film', type: 'exposure:film_developing' })
     event.remove({ output: 'exposure:developed_color_film', type: 'exposure:film_developing' })
+    event.remove({ output: 'createimmersivetacz:40mmhe_casing' })
+    event.remove({ input: 'createimmersivetacz:40mmhe_casing' })
+    event.remove({ output: 'createimmersivetacz:gernade_casing' })
+    event.remove({ input: 'createimmersivetacz:gernade_casing' })
     event.remove({ mod: 'hole_filler_mod' })
+    event.remove({ mod: 'weather2' })
 
 
     event.recipes.createMechanicalCrafting(Item.of('tacz:attachment', '{AttachmentId:"create_armorer:sight_standard"}'), [
@@ -218,5 +223,33 @@ ServerEvents.recipes(event => {
         'AAAA'
     ], {
         A: 'createdeco:industrial_iron_sheet'
+    })
+    event.shaped('weather2:anemometer', [
+        ' A ',
+        'ABA',
+        ' C '
+    ], {
+        A: 'create:iron_sheet',
+        B: 'weather2:weather_item',
+        C: 'create:shaft'
+    })
+    event.shaped('weather2:wind_vane', [
+        'A',
+        'B',
+        'C'
+    ], {
+        A: 'supplementaries:wind_vane',
+        B: 'weather2:weather_item',
+        C: 'weather2:anemometer'
+    })
+    event.shaped('weather2:wind_turbine', [
+        'ABA',
+        'ACA',
+        ' D '
+    ], {
+        A: 'create:iron_sheet',
+        B: 'weather2:anemometer',
+        D: 'createaddition:alternator',
+        C: 'weather2:weather_item'
     })
 })
