@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:andesite_alloy"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "item": "hole_filler_mod:throwable_hole_filler_water"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:ice"
+        },
+        {
+          "amount": 750,
+          "fluid": "minecraft:water",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:ice"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:ice"
+        },
+        {
+          "amount": 750,
+          "fluid": "minecraft:water",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:ice"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:ice"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:ice"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "minecraft:ice"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "hole_filler_mod:throwable_hole_filler_balanced"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "hole_filler_mod:throwable_hole_filler_smart"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:diamond_block"
+        },
+        {
+          "item": "create:content_observer"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:diamond_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:diamond_block"
+        },
+        {
+          "item": "create:factory_gauge"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:diamond_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:diamond_block"
+        },
+        {
+          "item": "tfmg:screwdriver"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:diamond_block"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "minecraft:diamond_block"
+  }
+}

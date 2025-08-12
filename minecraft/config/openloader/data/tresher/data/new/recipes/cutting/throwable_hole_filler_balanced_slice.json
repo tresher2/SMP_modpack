@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "hole_filler_mod:throwable_hole_filler_balanced"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "count": 4,
+      "item": "hole_filler_mod:throwable_hole_filler_balanced_slice"
+    }
+  ]
+}

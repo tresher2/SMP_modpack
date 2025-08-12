@@ -1,0 +1,62 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:andesite_alloy"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "item": "hole_filler_mod:throwable_hole_filler"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:andesite_alloy_block"
+        },
+        {
+          "item": "minecraft:dirt"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:andesite_alloy_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:andesite_alloy_block"
+        },
+        {
+          "item": "minecraft:dirt"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:andesite_alloy_block"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create:andesite_alloy_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:andesite_alloy_block"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "create:andesite_alloy_block"
+  }
+}

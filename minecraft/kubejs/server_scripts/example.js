@@ -2,36 +2,10 @@ ServerEvents.recipes(event => {
     event.remove({ type: 'tacz:gun_smith_table_crafting' })
     event.remove({ type: 'create:mechanical_crafting', mod: 'createimmersivetacz' })
     event.remove({ output: 'tacz:target' })
+    event.remove({ output: 'exposure:developed_black_and_white_film', type: 'exposure:film_developing' })
+    event.remove({ output: 'exposure:developed_color_film', type: 'exposure:film_developing' })
+    event.remove({ mod: 'hole_filler_mod' })
 
-    event.recipes.createMechanicalCrafting(Item.of('tacz:attachment', '{AttachmentId:"create_armorer:scope_telephoto"}'), [
-        'ABBA'
-    ], {
-        A: 'create:brass_sheet',
-        B: 'create_optical:mirror'
-    })
-    event.recipes.createMechanicalCrafting('createimmersivetacz:firing_mechanism', [
-        'ABC',
-        ' DE'
-    ], {
-        A: 'minecraft:flint_and_steel',
-        B: 'create:deployer',
-        C: 'create:large_cogwheel',
-        D: 'create:cogwheel',
-        E: 'create:rotation_speed_controller'
-    })
-    event.recipes.createMechanicalCrafting('createimmersivetacz:gun_trigger', [
-        'ABA',
-        ' C '
-    ], {
-        A: 'create:brass_sheet',
-        B: 'create:precision_mechanism',
-        C: 'create:analog_lever'
-    })
-    event.recipes.createMechanicalCrafting(Item.of('tacz:attachment', '{AttachmentId:"create_armorer:muzzle_refit_brass_retractor"}'), [
-        'AA'
-    ], {
-        A: 'create:brass_sheet'
-    })
 
     event.recipes.createMechanicalCrafting(Item.of('tacz:attachment', '{AttachmentId:"create_armorer:sight_standard"}'), [
         'ABC'
@@ -101,7 +75,35 @@ ServerEvents.recipes(event => {
         '#forge:plates/iron'         // Arg 3: the item to replace it with
     )
 
-
+    event.recipes.createMechanicalCrafting(Item.of('tacz:attachment', '{AttachmentId:"create_armorer:scope_telephoto"}'), [
+        'ABBA'
+    ], {
+        A: 'create:brass_sheet',
+        B: 'create_optical:mirror'
+    })
+    event.recipes.createMechanicalCrafting('createimmersivetacz:firing_mechanism', [
+        'ABC',
+        ' DE'
+    ], {
+        A: 'minecraft:flint_and_steel',
+        B: 'create:deployer',
+        C: 'create:large_cogwheel',
+        D: 'create:cogwheel',
+        E: 'create:rotation_speed_controller'
+    })
+    event.recipes.createMechanicalCrafting('createimmersivetacz:gun_trigger', [
+        'ABA',
+        ' C '
+    ], {
+        A: 'create:brass_sheet',
+        B: 'create:precision_mechanism',
+        C: 'create:analog_lever'
+    })
+    event.recipes.createMechanicalCrafting(Item.of('tacz:attachment', '{AttachmentId:"create_armorer:muzzle_refit_brass_retractor"}'), [
+        'AA'
+    ], {
+        A: 'create:brass_sheet'
+    })
     event.recipes.createMechanicalCrafting(Item.of('tacz:modern_kinetic_gun', '{GunId:"create_armorer:pistol_revolver_torque"}'), [
         'ABC',
         ' DE'
