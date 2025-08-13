@@ -255,4 +255,12 @@ ServerEvents.recipes(event => {
 
     event.recipes.create.mixing('minecraft:tuff', ['2x minecraft:flint', 'minecraft:diorite', Fluid.lava(100)])
     event.recipes.create.compacting('minecraft:cobbled_deepslate', ['4x minecraft:cobblestone', Fluid.lava(100)]).heated()
+    event.shaped('minecraft:lodestone', [
+        'AAA',
+        'ABA',
+        'AAA'
+    ], {
+        A: 'minecraft:stone',
+        B: 'minecraft:iron_ingot:
+    })
 })
