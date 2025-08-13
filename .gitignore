@@ -23,6 +23,7 @@ minecraft/tacz/tacz-pre.toml
 
 !/minecraft/mods/
 minecraft/mods/.connector
+minecraft/mods/.index
 
 !/minecraft/resourcepacks/
 !/minecraft/tacz
