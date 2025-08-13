@@ -1,0 +1,16 @@
+filename = 'create_mixed_casing-1.20.1-1.1.0.jar'
+name = 'Create: Mixed Casing'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '03927d21362d657dbe388d4c45667821c6bcd463'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6873074
+project-id = 1321083

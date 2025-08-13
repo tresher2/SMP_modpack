@@ -1,0 +1,16 @@
+filename = 'corn_delight-1.1.8-1.20.1.jar'
+name = 'Corn Delight'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '534db48f887586fd19f10db904cc9a19fa6c7b9ca4211983a88ec4f63e96292efdb5610e5eb9fbbe57c4e4e25a65305087ef71373c67331200deb7eaf4225d77'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uxLAKWU8/versions/YjUI4FwB/corn_delight-1.1.8-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'uxLAKWU8'
+version = 'YjUI4FwB'

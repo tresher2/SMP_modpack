@@ -1,0 +1,16 @@
+filename = 'New-Death-Messages-1.20.1.jar'
+name = 'New Death Messages'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '71a97e5851539de2a681bfef9a4db5cd3a362e68cbddb18794e24c24befedc6183a9ac66394db1dc799eaa180a6c214e474f501a6a8ebc59d7e9d4d5acb1528d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xmBoimWR/versions/kmZbNZoL/New-Death-Messages-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'xmBoimWR'
+version = 'kmZbNZoL'

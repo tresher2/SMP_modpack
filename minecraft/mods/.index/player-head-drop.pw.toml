@@ -1,0 +1,16 @@
+filename = 'player-head-drop-1.0.jar'
+name = 'Player Head Drop'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6', '1.21' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b3a39ac5427a07d53248d9ba6bf9366c768735ba8d323c88036e55d20fdc39b5bb7192a55b5572fa094e76febb1aa75042c3a88464a51919987973e90de7bb2d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/PXqJtoVP/versions/Z3w5mmsR/player-head-drop-1.0.jar'
+
+[update.modrinth]
+mod-id = 'PXqJtoVP'
+version = 'Z3w5mmsR'

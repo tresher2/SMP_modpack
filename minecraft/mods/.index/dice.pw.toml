@@ -1,0 +1,16 @@
+filename = 'Dice-[MC-1.20.1]-1.0.1.jar'
+name = 'Dice'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'db75c4a585d4f3f7f921ce2407dd333667855f143eba63931c2e61c1c838cd0d21933f2816ca87bb20111b93c6ed7f76b6716c0885bf407b655adcb2313c6068'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/YaTcrHqS/versions/PdfbnB3Z/Dice-%5BMC-1.20.1%5D-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'YaTcrHqS'
+version = 'PdfbnB3Z'

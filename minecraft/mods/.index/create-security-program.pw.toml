@@ -1,0 +1,16 @@
+filename = 'create_security-0.1.2-forge-1.20.1.jar'
+name = 'Create: Security Program'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f4182cb93b7ad1ab07fc552f2e065b2e40f681affa3c66e43fe76c0b675631860626ba77c2f9f12d28bc6d50bb91d890ee768274a1e3dbb4af6532e063b7bf66'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/q4goJtip/versions/SWAv0A7a/create_security-0.1.2-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'q4goJtip'
+version = 'SWAv0A7a'

@@ -1,0 +1,16 @@
+filename = 'dennis_painting-1.0.0-forge-1.20.1.jar'
+name = 'Dennis Painting backport'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'abb0653c48aafc2d8d5ace040c3fc7226c1d7ee00708edc3ddf2f07cf71b23bba95168751310360e71a6614cc45917d6e2f673a37c54059820674a954bb77c16'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NObCso3y/versions/cldE58fH/dennis_painting-1.0.0-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'NObCso3y'
+version = 'cldE58fH'

@@ -1,0 +1,16 @@
+filename = 'handtohand-1.0.2-1.20.1.jar'
+name = 'HandToHand'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3be9c962a8d7bfd8236f5604fee913cc32809f671b2790a10da8a42dd749067d64b6b47705257860131cb5a41d55c23b630161d1dcfe66a4cf5aa4bee172d2bf'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ppwwHBqG/versions/9jHoaGIG/handtohand-1.0.2-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'ppwwHBqG'
+version = '9jHoaGIG'

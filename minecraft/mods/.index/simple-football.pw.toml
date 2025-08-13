@@ -1,0 +1,16 @@
+filename = 'football-1.5-forge-1.20.1.jar'
+name = 'Simple Football'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a1a1a436c81b74f59c131e7ea6d911f22aa5ecdc34806ed94c0fb71513cf1ab30005974255ca6a194cd9da8b308099e67dcd44ef47e5815f0380bb591bc0c471'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/GbBeHyC4/versions/Fg4MNZgV/football-1.5-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'GbBeHyC4'
+version = 'Fg4MNZgV'

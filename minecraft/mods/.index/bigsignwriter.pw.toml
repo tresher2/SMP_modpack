@@ -1,0 +1,16 @@
+filename = 'bigsignwriter-1.4.0+1.20.1-forge.jar'
+name = 'Big Sign Writer'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0e02e4c85cfcc905f193087220bc86d64bca6c5954c1dee631f77f000ac2e832d67fc45714ec0f47ccae113af7876e338fa539f3584694a9ea409e6bd5aa8702'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/UCpxwAAu/versions/Dot8eOwj/bigsignwriter-1.4.0%2B1.20.1-forge.jar'
+
+[update.modrinth]
+mod-id = 'UCpxwAAu'
+version = 'Dot8eOwj'

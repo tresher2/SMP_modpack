@@ -1,0 +1,16 @@
+filename = 'shutter-2.1.4-1.20.1.jar'
+name = 'Shutters'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '273364cc21b894f44d53e02e0851443afc56967578671cea824207501b6de63c1da345607c0db2d3e99daab8c5624f39f90e37de6ae3173f53cb714290ccb683'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NjHNA0vG/versions/tbWilJvc/shutter-2.1.4-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'NjHNA0vG'
+version = 'tbWilJvc'

@@ -1,0 +1,16 @@
+filename = "Lazr's Lib-1.20-1.1.1.jar"
+name = "Lazr's Lib"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0a0c7fdf0ab5e9715c8823a42081f2ec095287a01e7b1e575f08ba8b314423eb4dcebfc1775fcddc4392337b779bd9c1d34cba44eb47da22279c6de3def2c70e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/hOqZCnXu/versions/vyEgTAmT/Lazr%27s Lib-1.20-1.1.1.jar'
+
+[update.modrinth]
+mod-id = 'hOqZCnXu'
+version = 'vyEgTAmT'
