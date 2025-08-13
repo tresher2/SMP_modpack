@@ -10,8 +10,8 @@ ServerEvents.recipes(event => {
     event.remove({ input: 'createimmersivetacz:gernade_casing' })
     event.remove({ mod: 'hole_filler_mod' })
     event.remove({ mod: 'weather2', not: { type: "create:sequenced_assembly"} })
-
-
+    event.remove({ output: 'minecraft:lodestone' })
+    
     event.recipes.createMechanicalCrafting(Item.of('tacz:attachment', '{AttachmentId:"create_armorer:sight_standard"}'), [
         'ABC'
     ], {
@@ -260,7 +260,7 @@ ServerEvents.recipes(event => {
         'ABA',
         'AAA'
     ], {
-        A: 'minecraft:stone',
+        A: 'minecraft:chiseled_stone_bricks',
         B: 'minecraft:iron_ingot'
     })
 })
