@@ -261,6 +261,6 @@ ServerEvents.recipes(event => {
         'AAA'
     ], {
         A: 'minecraft:stone',
-        B: 'minecraft:iron_ingot':
+        B: 'minecraft:iron_ingot'
     })
 })
