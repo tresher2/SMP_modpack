@@ -13,6 +13,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'minecraft:lodestone' })
     event.remove({ output: 'create_sa:copper_jetpack_chestplate' })
     event.remove({ output: 'create_sa:copper_exoskeleton_chestplate' })
+    event.remove({ output: 'create_sa:brass_jetpack_chestplate' })
     
     event.recipes.createMechanicalCrafting(Item.of('tacz:attachment', '{AttachmentId:"create_armorer:sight_standard"}'), [
         'ABC'
@@ -286,6 +287,27 @@ ServerEvents.recipes(event => {
         C: 'create:copper_sheet',
         D: 'create:fluid_tank',
         F: 'minecraft:copper_block',
-        E: 'create:andesite_alloy'
+        E: 'createdeco:andesite_sheet'
+    })
+    event.recipes.createMechanicalCrafting('create_sa:brass_jetpack_chestplate', [
+        ' GGGGGGG ',
+        'GJ  G  JG',
+        'G   G   G',
+        'G ABRBA G',
+        'GGCEDECGG',
+        'G  BFB  G',
+        'G   G   G',
+        'GJ  G  JG',
+        ' GGGGGGG '
+    ], {
+        A: 'create:cogwheel',
+        B: 'create:brass_ingot',
+        C: 'create:encased_fan',
+        D: 'create_sa:steam_engine',
+        E: 'create:sturdy_sheet',
+        G: 'alexsmobs:mimicream',
+        F: 'createdeco:andesite_sheet',
+        J: 'create:wand_of_symmetry',
+        R:  'tfmg:steel_mechanism'
     })
 })
