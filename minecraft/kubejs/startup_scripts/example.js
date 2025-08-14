@@ -10,3 +10,8 @@ StartupEvents.registry('item', event => {
     event.create('incomplete_throwable_hole_filler_water').displayName('Incomplete filler - Water').maxStackSize(32)
     event.create('incomplete_elite_mechanism_2').displayName('Incomplete weather item').maxStackSize(32)
 })
+ItemEvents.modification(event => {
+  event.modify('create_sa:blazing_pickaxe', item => {
+    item.maxDamage = 250
+  })
+})

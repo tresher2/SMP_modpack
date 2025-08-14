@@ -12,6 +12,7 @@ minecraft/config/*
 !minecraft/config/createfisheryindustry-common.toml
 !minecraft/config/Weather2
 !minecraft/config/parcool-client.toml
+!minecraft/config/create-stuff-additions.toml
 
 !minecraft/tacz
 minecraft/tacz/tacz_default_gun

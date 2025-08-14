@@ -14,7 +14,27 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'create_sa:copper_jetpack_chestplate' })
     event.remove({ output: 'create_sa:copper_exoskeleton_chestplate' })
     event.remove({ output: 'create_sa:brass_jetpack_chestplate' })
-    
+    event.remove({ output: 'create_sa:slime_helmet' })
+    event.remove({ output: 'create_sa:slime_boots' })
+
+    event.shaped('create_sa:slime_boots', [
+        'E E',
+        'L L',
+        'S S'
+    ], {
+        E: 'minecraft:echo_shard',
+        L: 'alexsmobs:banana_slug_slime',
+        S: 'minecraft:slime_block'
+    })
+    event.shaped('create_sa:slime_helmet', [
+        'SSS',
+        'L L',
+        'E E'
+    ], {
+        E: 'minecraft:echo_shard',
+        L: 'alexsmobs:banana_slug_slime',
+        S: 'minecraft:slime_block'
+    })
     event.recipes.createMechanicalCrafting(Item.of('tacz:attachment', '{AttachmentId:"create_armorer:sight_standard"}'), [
         'ABC'
     ], {
