@@ -11,6 +11,8 @@ ServerEvents.recipes(event => {
     event.remove({ mod: 'hole_filler_mod' })
     event.remove({ mod: 'weather2', not: { type: "create:sequenced_assembly"} })
     event.remove({ output: 'minecraft:lodestone' })
+    event.remove({ output: 'create_sa:copper_jetpack_chestplate' })
+    event.remove({ output: 'create_sa:copper_exoskeleton_chestplate' })
     
     event.recipes.createMechanicalCrafting(Item.of('tacz:attachment', '{AttachmentId:"create_armorer:sight_standard"}'), [
         'ABC'
@@ -262,5 +264,28 @@ ServerEvents.recipes(event => {
     ], {
         A: 'minecraft:chiseled_stone_bricks',
         B: 'minecraft:iron_ingot'
+    })
+    event.recipes.createMechanicalCrafting('create_sa:copper_jetpack_chestplate', [
+        'CAC',
+        'CBC',
+        'DED'
+    ], {
+        A: 'create:cogwheel',
+        B: 'create_sa:hydraulic_engine',
+        C: 'create:copper_sheet',
+        D: 'create:copper_backtank',
+        E: 'create:andesite_alloy'
+    })
+    event.recipes.createMechanicalCrafting('create_sa:copper_exoskeleton_chestplate', [
+        'CAC',
+        'DBD',
+        'FEF'
+    ], {
+        A: 'create:cogwheel',
+        B: 'create_sa:hydraulic_engine',
+        C: 'create:copper_sheet',
+        D: 'create:fluid_tank',
+        F: 'minecraft:copper_block',
+        E: 'create:andesite_alloy'
     })
 })
