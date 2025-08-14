@@ -290,11 +290,15 @@ ServerEvents.recipes(event => {
         E: 'createdeco:andesite_sheet'
     })
     event.recipes.createMechanicalCrafting('create_sa:brass_jetpack_chestplate', [
-        'GGGGGGG',
-        'GABABAG',
-        'GCEDECG',
-        'G BFB G',
-        'GGGGGGG'
+        ' GGGGGGG ',
+        'GJ  G  JG',
+        'G   G   G',
+        'G ABRBA G',
+        'GGCEDECGG',
+        'G  BFB  G',
+        'G   G   G',
+        'GJ  G  JG',
+        ' GGGGGGG '
     ], {
         A: 'create:cogwheel',
         B: 'create:brass_ingot',
@@ -302,6 +306,8 @@ ServerEvents.recipes(event => {
         D: 'create_sa:steam_engine',
         E: 'create:sturdy_sheet',
         G: 'alexsmobs:mimicream',
-        F: 'createdeco:andesite_sheet'
+        F: 'createdeco:andesite_sheet',
+        J: 'create:wand_of_symmetry',
+        R:  'tfmg:steel_mechanism'
     })
 })
