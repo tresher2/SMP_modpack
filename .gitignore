@@ -15,10 +15,6 @@ minecraft/config/*
 !minecraft/config/create-stuff-additions.toml
 !minecraft/config/carryon-common.toml
 
-!minecraft/tacz
-minecraft/tacz/tacz_default_gun
-minecraft/tacz/tacz-pre.toml
-
 !minecraft/kubejs
 
 !/minecraft/defaultconfigs/
