@@ -16,7 +16,16 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'create_sa:brass_jetpack_chestplate' })
     event.remove({ output: 'create_sa:slime_helmet' })
     event.remove({ output: 'create_sa:slime_boots' })
+    event.remove({ output: 'minecraft:campfire' })
 
+    event.shaped('minecraft:campfire', [
+        ' S ',
+        'SSS',
+        'WWW'
+    ], {
+        W: '#minecraft:logs',
+        S: 'minecraft:stick'
+    })
     event.shaped('create_sa:slime_boots', [
         'E E',
         'L L',
@@ -237,7 +246,7 @@ ServerEvents.recipes(event => {
         F: 'create:flywheel',
         U: 'create:andesite_casing',
         P: 'create:industrial_iron_block',
-        D: 'create:copper_backtank',
+        D: Item.of('create:copper_backtank', '{Air:900}'),
         E: 'create:iron_sheet'
     })
     event.recipes.createMechanicalCrafting('createimmersivetacz:gunbarrel', [

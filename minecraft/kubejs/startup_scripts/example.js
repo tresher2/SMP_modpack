@@ -14,4 +14,13 @@ ItemEvents.modification(event => {
   event.modify('create_sa:blazing_pickaxe', item => {
     item.maxDamage = 250
   })
+  event.modify('create_sa:blazing_shovel', item => {
+    item.maxDamage = 250
+  })
+  event.modify('create_sa:blazing_axe', item => {
+    item.maxDamage = 250
+  })
+  event.modify('create_sa:blazing_cleaver', item => {
+    item.maxDamage = 250
+  })
 })
