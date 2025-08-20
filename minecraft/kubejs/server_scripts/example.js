@@ -10,7 +10,17 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'create_sa:slime_helmet' })
     event.remove({ output: 'create_sa:slime_boots' })
     event.remove({ output: 'minecraft:campfire' })
+    event.remove({ output: 'naturescompass:naturescompass' })
 
+    event.shaped('naturescompass:naturescompass', [
+        'ABA',
+        'BCB',
+        'ABA'
+    ], {
+        A: '#minecraft:saplings',
+        B: 'weather2:weather_item',
+        C: 'minecraft:compass'
+    })
     event.shaped('minecraft:campfire', [
         ' S ',
         'SSS',
