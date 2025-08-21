@@ -24,7 +24,7 @@
 	can_Tap = true
 	can_Vault = false
 	can_VerticalWallRun = true
-	can_WallJump = true
+	can_WallJump = false
 	can_WallSlide = true
 	can_StartSwimByCrawl = true
 

@@ -23,4 +23,7 @@ ItemEvents.modification(event => {
   event.modify('create_sa:blazing_cleaver', item => {
     item.maxDamage = 250
   })
+  event.modify('supplementaries:rope', item => {
+    item.burnTime = 200
+  })
 })

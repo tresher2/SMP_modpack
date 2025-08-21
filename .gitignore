@@ -11,7 +11,6 @@ minecraft/config/*
 !minecraft/config/hole_filler_mod.toml
 !minecraft/config/createfisheryindustry-common.toml
 !minecraft/config/Weather2
-!minecraft/config/parcool-client.toml
 !minecraft/config/create-stuff-additions.toml
 !minecraft/config/carryon-common.toml
 
